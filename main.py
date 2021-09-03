@@ -4,6 +4,9 @@ from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
 import io
 
+URL = "https://dlpsgame.org/category/ps3/"
+HEADERS = {"User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0"}
+
 if __name__ == "__main__":
 
   # Get links
@@ -25,7 +28,6 @@ if __name__ == "__main__":
           a_tag = element.find('a')
           output.write("{} --> LINK: {} \n".format(a_tag.string,a_tag.get('href')))
       except:
-        error_count += 1
-        error_page.append(page_number)
-  print(f"Errors encountered: {errors.length}")
+        errors.append(page_number)
+  print(f"Errors encountered: {len(errors)}")
   print(f"The following pages had errors: {errors}")
