@@ -2,3 +2,5 @@ venv
 output.txt
 
 test.py
+
+__pycache__
