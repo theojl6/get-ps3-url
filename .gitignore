@@ -3,4 +3,4 @@ output.txt
 
 test.py
 
-__pycache__
+__pycache__/

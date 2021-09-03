@@ -21,3 +21,5 @@ Just Dance 2018 --> LINK: https://dlpsgame.org/just-dance-2018-full-free/
 FIFA 18 --> LINK: https://dlpsgame.org/fifa-18-full-free/ 
 NBA 2K18 --> LINK: https://dlpsgame.org/nba-2k18-full-free/ 
 ```
+
+Licensed under the [MIT License](LICENSE).
